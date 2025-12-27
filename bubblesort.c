@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 void display(int arr[],int size){
         for(int i=0;i<size;i++){
             printf("%d ",arr[i]);
         }
-        printf("\n");}
+        printf("\n");
+}
 void bubblesord(int arr[],int size){
             int temp;
             for(int i=0;i<size-1;i++){ // for number of pass
